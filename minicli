@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+import sys
+from commands import app
+
+if __name__ != "__main__":
+    print("Script must be executed directly instead of importing!")
+    sys.exit(1)
+
+
+app.run_command(sys.argv)
